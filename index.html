@@ -26,8 +26,9 @@
     <header class="top-line">
       <div class="container top-line-style">
         <a href="index.html" rel="noopener noreferrer" class="logo">WEB</a>
-        <nav class="navbar">
-          <ul class="navbar-list">
+        <nav>
+          <div class="menu-toggle" id="hamburger-menu">
+          <ul class="nav-menu" id="nav-menu">
             <li>
               <a href="index.html" class="navbar-list-item index active"
                 >Studio</a
@@ -45,7 +46,7 @@
             </li>
           </ul>
         </nav>
-
+    
         <ul class="contact">
           <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -55,6 +56,7 @@
           </li>
         </ul>
       </div>
+        </div>
     </header>
     <main>
       <!-- Hero section -->
@@ -62,12 +64,7 @@
         <div class="hero">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <a-service-btn
-            ><button
-              class="button-service-a-serice-btn"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-              data-modal-open
-            >
+            ><button class="button-service-a-serice-btn" data-modal-open>
               Order Service
             </button></a-service-btn
           >

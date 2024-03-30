@@ -188,7 +188,7 @@ button:hover {
   scale: 1.05;
 }
 
-.navbar-list {
+.nav-menu {
   display: flex;
   gap: 40px;
   margin-right: 100px;
@@ -1059,64 +1059,20 @@ textarea {
   top: 8px;
   right: 24px;
 }
-.mobile-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+/* Stiluri generale pentru meniu */
+@media screen and  (min-width: 428px)and (max-width:768px) {
+  .menu-toggle {
+    display: none;
+    /* Hide hamburger menu on larger screens */
+  }
+
+  .nav-menu {
+    display: block;
+    /* Show navigation menu on larger screens */
+  }
 }
 
-.mobile-menu .link {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-/* Base styles for mobile devices */ body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-.header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-}
-
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none;}
-  
-
-
-.nav ul li {
-  display: block;
-  padding: 10px;
-}
-
-.nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-/* Hide the menu on larger screens */
-
-.main {
-  padding: 20px;
-}
-
-.footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-@media (max-width: 428px) {
-  .mobile-menu{
-    display: block;}
-    /* Show the menu on mobile */}
-/* Styles for screens larger betheen 428px and 768px */
 @media screen and (min-width: 429px) and(max-width:768px){
 }
 
