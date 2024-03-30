@@ -1112,7 +1112,10 @@ textarea {
   text-align: center;
   padding: 10px 0;
 }
-
+@media (max-width: 428px) {
+  .mobile-menu{
+    display: block;}
+    /* Show the menu on mobile */}
 /* Styles for screens larger betheen 428px and 768px */
 @media screen and (min-width: 429px) and(max-width:768px){
 }
