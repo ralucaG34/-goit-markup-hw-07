@@ -145,10 +145,6 @@ button:hover {
 }
 
 /* Header: Navigation bar */
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .filters-sctn{
   padding: 94px 0;
@@ -433,22 +429,7 @@ font-size: 20px;
 
 }
 
-.word:hover,
-.word:focus,
-.word:active {
-  border-color: #4dcee5;
 
-  /* Border color when hovered or focused */
-  border: 2px;
-  /* Default border color */
-  padding: 5px;
-  display: inline-block;
-  /* Ensures the element is focusable */
-  width: 1440px;
-  height: 2076px;
-  top: -1169px;
-  left: 2035px;
-}
 
 /* Portfolio page */
 
@@ -1071,7 +1052,14 @@ textarea {
     /* Show navigation menu on larger screens */
   }
 }
+/* Hidden Checkbox */
+.menu-toggle-checkbox {
+  display: none;
+}
 
+/* Show Menu When Checkbox is Checked */
+.menu-toggle-checkbox:checked~.nav-menu {
+  display: block;}
 
 @media screen and (min-width: 429px) and(max-width:768px){
 }
