@@ -369,7 +369,6 @@ button:hover {
 .card-set {
   display: flex;
     /* list-style: none; */
-    < nu ai nevoie justify-content: center;
     gap: 24px;
     width: 264px;
     height: 380px;
@@ -681,8 +680,8 @@ height: 24px; }
   height: 88px;
   background: var(--white);
   border: 1px solid var(--background-color);
-  border-radius: 4px,
-  display: flex;
+  border-radius: 4px;
+  display:flex;
   justify-content: center;
   align-items: center;
   transition: border var(--transition);
@@ -1060,41 +1059,54 @@ textarea {
   top: 8px;
   right: 24px;
 }
-* Base styles for mobile devices */ body {
+.mobile-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-menu .link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+/* Base styles for mobile devices */ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-header {
+.header {
   background-color: #333;
   color: white;
   padding: 10px 0;
 }
 
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: none;
-  /* Hide the menu on larger screens */
-}
+  display: none;}
+  
 
-nav ul li {
+
+.nav ul li {
   display: block;
   padding: 10px;
 }
 
-nav ul li a {
+.nav ul li a {
   color: white;
   text-decoration: none;
 }
+/* Hide the menu on larger screens */
 
-main {
+.main {
   padding: 20px;
 }
 
-footer {
+.footer {
   background-color: #333;
   color: white;
   text-align: center;
@@ -1102,19 +1114,24 @@ footer {
 }
 
 /* Styles for screens larger than 428px */
-@media (min-width: 428px) {
-  nav ul {
-    display: flex;
-    /* Show the menu as a horizontal list */
-  }
+@media screen and (min-width: 428px) and(max-width:768px){
 }
 
 /* Styles for screens larger than 768px */
-@media (min-width: 768px) {
-  /* Additional styles for larger screens */
+@media screen and (min-width: 768px)and (max-width:1158px) {
+
 }
 
 /* Styles for screens larger than 1158px */
-@media (min-width: 1158px) {
-  /* Additional styles for even larger screens */
+@media screen and (min-width: 1158px) {
+  
 }
+/* Default background image */
+
+
+/* High-resolution background image */
+
+@media screen and (min-resolution: 1dppx)and (max-resolution:2ddpx) {
+
+}
+
