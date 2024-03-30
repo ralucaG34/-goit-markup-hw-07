@@ -31,11 +31,12 @@
   gap: 76px;
 }
 
-ul {
+.menu-toggle ul{
   list-style: none;
   display: flex;
 }
 
+.card-set{ list-style: none;display: flex;}
 a.nav {
   color: var(--default-text-color);
 }
@@ -62,7 +63,7 @@ a.nav {
 }
 
 .title-h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -70,13 +71,14 @@ a.nav {
   color: var(--default-text-color);
 }
 
-.text {
-  font-weight: 400;
+.text { font-weight: 400px;
+ font-style: 'roboto';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 8px 0;
 }
+
 button {
   border-style: none;
   transition: transform var(--transition);
@@ -213,7 +215,9 @@ button:hover {
   gap: 40px;
   margin-left: 100px;
 }
-
+.contact{list-style: none;
+  display: flex;
+}
 .contact a {
   color: var(--slate);
   text-decoration: none;
@@ -251,6 +255,9 @@ button:hover {
 .button-service-a-serice-btn {
   font-family: "Roboto";
   color: var(--background-color);
+}
+.filter-butons{list-style: none;
+  display: flex;
 }
 .filter-button-all {
   border-radius: 4px;
@@ -336,16 +343,17 @@ button:hover {
  border: 3px solid var(--cornflower);}
     
 
-.card-set {
+.card-set-card-set {
   display: flex;
     /* list-style: none; */
     gap: 24px;
     width: 264px;
     height: 380px;
-    /* border: 1px solid var(--accent-color); */
+    /* border: 1px solid var(--accent-color); */ 
+    /*margin:0;*/flex-wrap: wrap;justify-content: space-between;
 
   }
-
+  
 .team-card {
   display: flex;
   list-style: none;
@@ -438,9 +446,9 @@ display: flex;
 .row-02,
 .row-03 {
   display: flex;
-  justify-content: center;
+  justify-content: center; list-style: none;
 }
-
+.cards-cards-project{display: flex; list-style: none;}
 .row-01 ul,
 .row-02 ul,
 .row-03 ul {
@@ -509,7 +517,8 @@ display: flex;
   display: flex;
   justify-content: center;
 }
-
+.footer-social ul{list-style: none;
+  display: flex;}
 .footer-section {
   background: var(--navy-blue);
   padding: 100px 0;
@@ -621,11 +630,10 @@ height: 24px; }
   color: var(--light-slate);
 }
 
-.customers-icons:hover,
+.customers-icons .last-icons:hover,
 .customers-icons:active {
   color: var(--iris);
 }
-
 .last-icons {
   width: 168px;
   height: 88px;
