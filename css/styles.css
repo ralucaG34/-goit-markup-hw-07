@@ -1113,17 +1113,17 @@ textarea {
   padding: 10px 0;
 }
 
-/* Styles for screens larger than 428px */
-@media screen and (min-width: 428px) and(max-width:768px){
+/* Styles for screens larger betheen 428px and 768px */
+@media screen and (min-width: 429px) and(max-width:768px){
 }
 
-/* Styles for screens larger than 768px */
-@media screen and (min-width: 768px)and (max-width:1158px) {
+/* Styles for screens larger betheen 768px and 1158px */
+@media screen and (min-width: 769px)and (max-width:1158px) {
 
 }
 
 /* Styles for screens larger than 1158px */
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1159px) {
   
 }
 /* Default background image */
