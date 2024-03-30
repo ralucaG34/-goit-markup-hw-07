@@ -417,25 +417,21 @@ font-size: 20px;
 }
 
 .one-cards-container {
-  width: 1200px;
-  height: 420px;
-  margin-top: 72px;
-  box-shadow: 1px 8px 20px grey;
+display: flex;
+  justify-content: space-between;
+  padding: 0 0;
 }
 
 .two-cards-container {
-  width: 1200px;
-  height: 420px;
-  margin-top: 48px;
-  box-shadow: 1px 8px 20px gray;
+  display: flex;
+    justify-content: space-between;
+    padding: 94px 0;
 }
 
 .thre-cards-container {
-  width: 1200px;
-  height: 420px;
-  margin-top: 48px;
-  margin-bottom: 120px;
-  box-shadow: 1px 8px 20px grey;
+  display: flex;
+    justify-content: space-between;
+    padding: 94px 0;
 }
 
 .row-01,
@@ -503,10 +499,10 @@ font-size: 20px;
 .project6,
 .project7,
 .project8,
-.project9:hover {
+.project9 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.05); 
 }
 .footer {
   background-color: #2e2f42;
